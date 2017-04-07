@@ -1,6 +1,6 @@
 # Introduction
 
-A doctree is a set of content 'snippets' held in a tree structure. Any part of the tree can be reused elsewhere and any piece of content can appear in multiple places.
+A doctree is a set of content 'snippets' held in a tree structure. Any sub-tree can be reused elsewhere and any piece of content can appear in multiple places.
 
 The main purpose of this is to allow creation of multiple documents / resources that can share 'snippets' or whole sections.
 
