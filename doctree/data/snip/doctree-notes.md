@@ -8,13 +8,13 @@ The main purpose of this is to allow creation of multiple documents / resources 
 
 The doctree structure has three top level directories.
 
-/snip
+`/snip`
     This is a 'flat' directory with each content snippet in it's own file.
 
-/node
+`/node`
     Similar to /snip, this is also a flat directory containing every node in the tree as a directory.
     However, these directories can contain simlinks to other directories thus building a tree.
     Each node directory references its content with a nodename.snip symlink.
 
-/root
+`/root`
     This directory represents the root of the tree and it contains the top level nodes (in the form simlinks to directories in /node).
