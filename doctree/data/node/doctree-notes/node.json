@@ -1,0 +1,12 @@
+{
+  "title": "Notes on the DocTree structure", // Title for author not consumer.
+  "resource": "./doctree-notes.md"
+}
+
+
+// Whenever a node reference a resource:
+
+// If it references a file - that file is the resource.
+
+// If it references a directory - something inside that directory is the resource.
+// (ideally, resource.[relevant-file-extension]) eg resource.jpeg.
