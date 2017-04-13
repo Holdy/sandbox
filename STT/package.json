@@ -1,0 +1,15 @@
+{
+  "name": "stt",
+  "version": "1.0.0",
+  "description": "speecth",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Holdy",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/speech": "0.9.x"
+  }
+
+}
